@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Calibri Light", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "MarvelRegular";
+  src: url("./MarvelRegular.ttf") format("truetype");
+}
