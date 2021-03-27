@@ -6,6 +6,7 @@ export const CharacterElement = ({ character, index }) => {
       <span>{character.name.toUpperCase()}</span>
       <img
         src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
+        alt="character thumbnail"
       />
     </div>
   );
