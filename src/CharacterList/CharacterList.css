@@ -15,17 +15,18 @@
   padding: 6px 20px;
   width: 100%;
   margin-bottom: 10px;
+  font-size: 23px;
 }
 
 .character-box img {
   width: 186px;
-  height: 186px;
+  height: 230px;
   object-fit: contain;
 }
 
 .character-grid {
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 65px 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1500px;
   margin: 0 auto;
