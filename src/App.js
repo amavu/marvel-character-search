@@ -4,6 +4,8 @@ import { fetchMarvelCharacters } from "./marvel-api";
 import { CharacterList } from "./CharacterList/CharacterList";
 import { SearchForm } from "./SearchForm/SearchForm";
 import { Portrait } from "./Portrait/Portrait";
+import { Route } from "react-router";
+import { SingleCharacter } from "./SingleCharacter/SingleCharacter";
 
 const App = () => {
   const [characterList, setCharacterList] = useState([]);
@@ -22,11 +24,18 @@ const App = () => {
   return (
     <div>
       <header className="marvel-header">MARVEL CHARACTER SEARCH</header>
-      <div className="portrait-and-search-container">
-        <Portrait />
-        <SearchForm handleSubmit={handleSubmit} />
-      </div>
-      <CharacterList characterList={characterList} />
+      <Route exact path="/">
+        <div>
+          <div className="portrait-and-search-container">
+            <Portrait />
+            <SearchForm handleSubmit={handleSubmit} />
+          </div>
+          <CharacterList characterList={characterList} />
+        </div>
+      </Route>
+      <Route exact path="/character/:id">
+        <SingleCharacter />
+      </Route>
     </div>
   );
 };

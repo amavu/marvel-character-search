@@ -6,7 +6,7 @@ window.env = {
   "npm_config_only": "",
   "npm_config_commit_hooks": "true",
   "npm_config_browser": "",
-  "npm_package_gitHead": "7009bf6617437572926d22eb6cebc59ca40b1dad",
+  "npm_package_gitHead": "556d6b352234134327e8c87536e6930b4075ccc5",
   "npm_config_also": "",
   "npm_config_sign_git_commit": "",
   "npm_config_rollback": "true",
@@ -111,6 +111,7 @@ window.env = {
   "npm_config_searchstaleness": "900",
   "npm_config_optional": "true",
   "npm_config_ham_it_up": "",
+  "npm_package_dependencies_react_router_dom": "^5.2.0",
   "XPC_FLAGS": "0x0",
   "npm_config_save_prod": "",
   "npm_config_force": "",
@@ -187,7 +188,7 @@ window.env = {
   "npm_config_link": "",
   "npm_config_format_package_lock": "true",
   "COLORTERM": "truecolor",
-  "PUBLIC_KEY": "e0bfea14f1aa7be826bc29190e13119b",
-  "PRIVATE_KEY": "e3eba2805517235643565037773d1f514647769f",
-  "HASH": "2ed961c608d10a681ef425a9646920d9"
+  "REACT_APP_PUBLIC_KEY": "e0bfea14f1aa7be826bc29190e13119b",
+  "REACT_APP_PRIVATE_KEY": "e3eba2805517235643565037773d1f514647769f",
+  "REACT_APP_HASH": "2ed961c608d10a681ef425a9646920d9"
 };
