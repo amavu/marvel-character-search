@@ -10,3 +10,7 @@
   width: 100%;
   font-size: 20px;
 }
+
+.search-form input:focus {
+  outline-color: #ed1d24;
+}

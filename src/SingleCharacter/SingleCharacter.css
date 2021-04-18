@@ -1,2 +1,12 @@
-.character-portrait {
+.single-character-portrait {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.single-character-portrait span {
+}
+
+.single-character-portrait img {
+  width: 100%;
 }
