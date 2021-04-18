@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { useState, useEffect } from "react";
 import { fetchSingleCharacterById } from "../marvel-api";
+import "./SingleCharacter.css";
 
 export const SingleCharacter = () => {
   const { id } = useParams();
@@ -20,12 +21,12 @@ export const SingleCharacter = () => {
   console.log(character);
 
   return dataIsFetched ? (
-    <div className="character-portrait">
-      <span>{character.name}</span>
+    <div className="single-character-portrait">
       <img
         src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
         alt="single character thumbnail"
       />
+      <span>{character.name}</span>
     </div>
   ) : (
     <div>Loading</div>

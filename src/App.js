@@ -5,6 +5,7 @@ import { CharacterList } from "./CharacterList/CharacterList";
 import { SearchForm } from "./SearchForm/SearchForm";
 import { Portrait } from "./Portrait/Portrait";
 import { Route } from "react-router";
+import { Link } from "react-router-dom";
 import { SingleCharacter } from "./SingleCharacter/SingleCharacter";
 
 const App = () => {
@@ -23,7 +24,9 @@ const App = () => {
   console.log(characterList);
   return (
     <div>
-      <header className="marvel-header">MARVEL CHARACTER SEARCH</header>
+      <Link className="marvel-header-link" to="/">
+        <header className="marvel-header">MARVEL CHARACTER SEARCH</header>
+      </Link>
       <Route exact path="/">
         <div>
           <div className="portrait-and-search-container">

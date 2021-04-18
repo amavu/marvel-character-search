@@ -19,3 +19,7 @@ body {
   color: white;
   text-align: center;
 }
+
+.marvel-header-link {
+  text-decoration: none;
+}
